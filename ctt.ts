@@ -36,3 +36,9 @@ type person = { name: string; age: number };
 logDetails = (language: person) => {
   console.log(`i speak ${language.name} im ${language.age} years old`);
 };
+
+// saat kita mau memisahkan file
+// kita harus mengatur tsconfig module ke es2015 dan targetnya es6
+// di index.htmlnya script tagnya kita beri properti type="module"
+
+// kita juga bisa membuat interface dengan file terpisah
